@@ -24,8 +24,8 @@
 }
 
 #secondObjTextBox {
-    height: 50px;
-    width: 250px;
+    height: 46px;
+    width: 150px;
     font-size: 20px;
 }
 
@@ -42,11 +42,14 @@
 }
 
 #fourthObjDiv {
+    height: 50px;
     font-size: 20px;
     margin-left: 37%;
+    line-height: 50px;
+    vertical-align: middle;
 }
 
-#fifthObj {
+#fifthButton {
     width: 150px;
     height: 50px;
     color: white;
@@ -56,15 +59,12 @@
     font-size: 15px;   
 }
 
-#fifthObjText {
-    height: 54px;
-    width: 254px;
+#fifthObjTextBox {
+    height: 50px;
+    width: 154px;
     border: 1px solid lightgray;
-    margin-left: 53%;
-    margin-top: -6.1%;
-}
-
-#fifthObjSpan {
+    margin-left: 54.2%;
+    margin-top: -6.7%;
     color: red;
     font-size: 20px;
     font-family:  cursive;
