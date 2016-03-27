@@ -1,1 +1,1 @@
-var app = angular.module('simpleTasksApp', []);
+var app = angular.module('simpleTasksApp',[]);

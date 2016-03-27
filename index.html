@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="simpleTasksApp">
+
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/controllers.js"></script>
+    </head>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="page-header">
+                <h1>Simple Tasks - AngularJS</h1>
+            </div>
+        </div>
+        <div ng-controller="simpleTasksController">
+            <div id = "firstObjDiv">
+                <button id="firstButton" ng-click="firstObjective()">#1</button>
+            </div>
+            <div id = "secondObjDiv">
+                <button id="secondButton" ng-click="secondObjective()">#2</button>
+                <input type="text" id="secondObjTextBox", placeholder="Enter Text Here", ng-model="secondObjInput"></input>
+            </div>
+            <div id="thirdObjDiv" ng-mouseenter="thirdObjective()" ng-mouseleave="thirdObjRev()" ng-style="colorChange">#3</div>
+            <div id='fourthObjDiv' ng-click="fourthObjective()" ng-style="textColorChange">This is the Fourth Objective</div>
+            <div id='fifthObjDiv'>
+                <button id="secondButton" ng-click="secondObjective()">#2</button>
+                <input type="text" id="secondObjTextBox", placeholder="Enter Text Here", ng-model="secondObjInput"></input>
+            </div>      
+        </div>
+    </body>
+
+</html>
